@@ -1,0 +1,5 @@
+student 1, 10
+student 2, 12
+student 3, 34
+student 4, 35
+student 5, 14
