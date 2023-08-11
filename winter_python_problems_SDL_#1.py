@@ -7,12 +7,14 @@ def largest(l):
     return char
 
 def smallest(s):
-# smol = 0
-    # for character in s.split(","):
-    #     # print(int(character))
-    #     if int(character) < smol:
-    #         smol = int(character)
-    # return smol
+    smol = None
+    for character in s.split(","):
+        if smol is None: #This will set the first integer as smol, then it will start comparing.
+            smol = int(character)
+        # print(int(character))
+        if int(character) < smol:
+            smol = int(character)
+    return smol
 
 def average(a):
     s = 0
